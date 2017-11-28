@@ -1,8 +1,11 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-main() {
-	for(int k = 2; k <= 30; k+=2) {
-		cout<<k<<" ";
+int Multiple(int c){
+	return 2*c;
+}
+int main(){
+	for(int i = 1; i <= 15; i++){
+		cout << Multiple(i) << " ";
 	}
 }
